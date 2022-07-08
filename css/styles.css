@@ -1,0 +1,55 @@
+.graf {
+  background-color: #eaf4f4;
+  border: 1px solid #6b9080;
+}
+
+.barras {
+  fill: #f4d35e;
+  stroke-width: 5;
+  stroke: #0d3b66;
+}
+
+.axis {
+  font-size: 10pt;
+}
+
+.titulo {
+  font-size: 18pt;
+  font-weight: bold;
+  text-anchor: middle;
+}
+
+.fuente {
+  font-size: 10pt;
+}
+
+.etiqdatos {
+  font-size: 10pt;
+}
+
+#tooltip
+{
+  position: absolute;
+  width: 210px;
+  height: auto;
+  padding: 5px;
+  background-color: rgba(54, 67, 246, 0.452);
+  -webkit-border-radius:10px;
+  -moz-border-radius:10px;
+  border-radius: 10px;
+  -webkit-box-shadow: 4px 4px 10px rgba(0,0,0,0.4);
+  -moz-box-shadow:4px 4px 10px rgba(0,0,0,0.4);
+  box-shadow: 4px 4px 10px rgba(0,0,0,0.4);
+  pointer-events: none;
+}
+ .hidden{
+  display: none;
+}
+ .p{
+  margin: 0;
+  font-family: sans-serif;
+  font-size: 8px;
+  line-height: 20px;
+  text-align: center;
+ }
+ 
